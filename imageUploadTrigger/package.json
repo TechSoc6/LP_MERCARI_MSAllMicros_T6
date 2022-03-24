@@ -1,0 +1,15 @@
+{
+    "name": "imageuploadtrigger",
+    "version": "1.0.0",
+    "description": "This is a serverless function to trigger image upload to blob storage",
+    "main": "index.js",
+    "scripts": {
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@azure/storage-blob": "^12.9.0",
+        "parse-multipart": "^1.0.4",
+        "uuid": "^8.3.2"
+    }
+}
