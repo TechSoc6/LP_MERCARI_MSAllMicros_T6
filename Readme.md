@@ -4,7 +4,7 @@
 
 ### Schema of each report
 
-```json
+```js
 {
     nhid: {
         type: mongoose.Schema.Types.ObjectId,
@@ -56,7 +56,7 @@ endpoint =
 
 #### Request Body
 
-```json
+```js
 { 
     nhid: {NHID of patiend}, 
     docId: {Registration ID of Doctor}, 
@@ -67,7 +67,7 @@ endpoint =
 
 #### Response Body
 
-```json
+```js
 {
     success: true,
     data: {
@@ -111,7 +111,7 @@ endpoint
 
 ### Request body
 
-```json
+```js
 {
     patId: {NHID of the patient},
     docId: {Registration ID of the doctor},
@@ -125,7 +125,7 @@ endpoint
 ### Response
 
 If no conflicts found it'll send positive message
-```
+```js
 {
     message: "Appointment booked"
 }
