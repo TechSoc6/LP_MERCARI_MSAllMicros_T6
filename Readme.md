@@ -38,7 +38,7 @@ nhid = {nhid of the patient}
 
 #### Response Body
 
-```json
+```js
 {
     success: true,
     data: {
