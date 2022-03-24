@@ -27,7 +27,7 @@
 ### Read reports
 
 ```cmd
-endpoint =
+endpoint = https://mercari-t6.azurewebsites.net/api/appointSchedule?code=pkPjwp7e1IBVKH9SxvIUwdzBNakl3LQLqdOVHY6Z1f01ro8yJe3C2Q==
 ```
 
 #### Request Query
@@ -51,7 +51,7 @@ nhid = {nhid of the patient}
 ### Write reports
 
 ```cmd
-endpoint =
+endpoint = https://mercari-t6.azurewebsites.net/api/appointSchedule?code=pkPjwp7e1IBVKH9SxvIUwdzBNakl3LQLqdOVHY6Z1f01ro8yJe3C2Q==
 ```
 
 #### Request Body
@@ -84,7 +84,7 @@ In many microservices in the application, it's reuired to have the urls of image
 ### Upload Images
 
 ```cmd
-endpoint = 
+endpoint = https://mercari-t6.azurewebsites.net/api/appointSchedule?code=pkPjwp7e1IBVKH9SxvIUwdzBNakl3LQLqdOVHY6Z1f01ro8yJe3C2Q==
 ```
 
 Here is a simple html file that uses the microservice to upload image to the blob
@@ -95,7 +95,7 @@ Here is a simple html file that uses the microservice to upload image to the blo
         <title>Test</title>
     </head>
     <body>
-        <form enctype="multipart/form-data" method="post" action="https://mercari-image-upload.azurewebsites.net/api/imageUploadTrigger?code=Mo/r/z09Cu421p6Ds7R22Pm5h5thxxogfm5GOLLcYbN6JhIlV8av1A==">
+        <form enctype="multipart/form-data" method="post" action="https://mercari-t6.azurewebsites.net/api/appointSchedule?code=pkPjwp7e1IBVKH9SxvIUwdzBNakl3LQLqdOVHY6Z1f01ro8yJe3C2Q==">
             <input type="file" id="myfile" name="filename" />
             <input type="submit">Submit</input>
         </form>
@@ -106,7 +106,7 @@ Here is a simple html file that uses the microservice to upload image to the blo
 ## Appointment
 
 ```cmd
-endpoint
+endpoint = https://mercari-t6.azurewebsites.net/api/appointSchedule?code=pkPjwp7e1IBVKH9SxvIUwdzBNakl3LQLqdOVHY6Z1f01ro8yJe3C2Q==
 ```
 
 ### Request body
